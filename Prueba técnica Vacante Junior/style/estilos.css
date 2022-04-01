@@ -1,0 +1,281 @@
+
+
+
+.general {
+    font-size: 1.3vw;
+    background: #f8efef;
+   
+
+}
+
+.contactanos {
+    margin: auto;
+    display: flex;
+    padding: 1em 0 0 0;
+    font-size: 1.3em;
+    background: #f8f8f800;
+    font-weight: bold;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.contenidopais {
+
+    display: flex;
+
+}
+    
+    
+
+
+.logospais {
+    padding: 1em 0 1em 3em;
+    position: relative;
+   
+   
+  
+}
+
+.jss14 {
+    padding: 0 1em 0 3em;
+    width: 100%;
+    
+}
+
+.bloques {
+    padding: 0;
+    margin-top: 0;
+    
+}
+
+.fotopais {
+    width: auto;
+    height: auto;
+    aspect-ratio: 3/2;
+
+}
+
+.bandera {
+    right: calc(8% - 3.5em);
+    width: 4em;
+    bottom: calc(80% - 2em);
+    position: absolute;
+    
+}
+
+.bandera2 {
+    right: calc(8% - 3.5em);
+    width: 4em;
+    bottom: calc(50% - 2em);
+    position: absolute;
+    
+}
+
+
+
+.texto {
+    color: #050505;
+    margin: 0;
+    
+}
+
+
+.texto2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+ 
+}
+
+
+.titulos2 {
+    color: #563DFF;
+    font-weight: bold;
+    font-size:1rem;
+    font-weight: bold;
+    
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.sec1 {
+    margin: 0.5em 0;
+}
+
+
+.vinetas::marker {
+    color: #563DFF;
+}
+
+.titulos {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.informacion {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+@media screen and (min-width: 800px) and (max-width:1200px){
+
+    .jss14 {
+        padding: 2 0 0 1.5em;
+        flex-grow: 1;
+        max-width: 50em;
+    }
+
+
+    .contenidopais {
+        margin: 0;
+        padding: 1.5em 0em;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .general {
+    font-size: min(1.25vw, 24px);
+}
+
+
+.fotopais {
+    width: auto;
+    height: 12em;
+}
+
+
+.bandera {
+    top: 4em;
+    right: 0;
+    bottom: none;
+    right: calc(8% - 3.5em);
+
+}
+
+.bandera2 {
+    top: 4em;
+    right: 0;
+    bottom: none;
+    right: calc(8% - 3.5em);
+
+}
+
+.texto2 {
+    font-size:1.5em;
+ 
+}
+
+.titulos {
+ 
+     font-size: 0.7rem;
+}
+
+.informacion {
+   
+    font-size: 0.6rem;
+  
+}
+
+
+}
+
+
+@media screen and (max-width:789px){
+
+    .jss14 {
+        padding: 2 0 0 1.5em;
+        flex-grow: 1;
+        max-width: 50em;
+    }
+
+
+    .contenidopais {
+        margin: 0;
+        padding: 1.5em 0em;
+        flex-direction: row;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .general {
+    font-size: min(1.25vw, 24px);
+}
+
+
+.fotopais {
+    width: 50%;
+    height: 50%;
+}
+
+
+.bandera {
+    top: 3em;
+    right: 0;
+    bottom: none;
+    right: calc(53% - 3.5em);
+    font-size: 2.5em;
+
+}
+
+.bandera2 {
+    top: 4em;
+    right: 0;
+    bottom: none;
+    right: calc(53% - 3.5em);
+    font-size: 2.5em;
+
+}
+
+.texto2 {
+    font-size:1.5em;
+    line-height: 1.3;
+}
+
+.titulos {
+ 
+     font-size: 0.7rem;
+}
+
+.informacion {
+   
+    font-size: 0.6rem;
+  
+}
+   
+.contactanos {
+   
+    font-size: 2.5em;
+   
+}
+
+.jss19{
+
+    font-size: 3em;
+}
+
+.titulos2 {
+    
+    font-size:0.7rem;
+    
+    
+}
+
+}
